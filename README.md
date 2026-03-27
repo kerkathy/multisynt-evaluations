@@ -33,12 +33,10 @@ Unlike HPLT2 monolingual models, no model has intermediate checkpoints available
 
 ### Benchmark coverage
 - **include**: Basque, Dutch, Finnish, French, German, Italian, Polish, Portuguese, Spanish (9/15 languages)
-- **belebele**: Danish, Dutch, Finnish, French, German, Italian, Polish, Portuguese, Romanian, Spanish, Swedish (11/15 languages)
-- **flores**: Danish, Dutch, Finnish, French, German, Italian, Polish, Portuguese, Romanian, Spanish, Swedish (11/15 languages)
+- **belebele**: Basque, Catalan, Danish, Dutch, Finnish, French, German, Italian, Norwegian, Polish, Portuguese, Romanian, Spanish, Swedish (14/15 languages)
+- **flores**: Danish, Dutch, Finnish, French, German, Italian, Polish, Portuguese, Romanian, Spanish, Swedish (11/15 languages — Catalan, Basque, Icelandic, Norwegian pending flores_plus migration, see `flores_migration.md`)
+- **others**: Catalan (`copa_ca`), Icelandic (`icelandic_winogrande`)
 - **No benchmark coverage**: (none)
-- **icelandic_winogrande** (lm-eval-harness): Icelandic
-- **Only include (not belebele/flores)**: Basque
-- **belebele and flores but not include**: Danish, Romanian, Swedish
 
 
 
